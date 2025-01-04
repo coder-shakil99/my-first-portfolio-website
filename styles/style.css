@@ -19,7 +19,7 @@ img{
 
 .header-area{
     background: purple;
-    padding: 10px 0;
+    /* padding: 10px 0; */
 
 }
 
@@ -63,4 +63,82 @@ img{
 }
 .header-menu ul li a:hover{
     color: #ddd;
+}
+
+.banner-section{}
+.banner-image{
+    position: relative;
+
+}
+.banner-image img{
+    height: 800px;
+    width: 100%;
+
+
+}
+.banner-hover{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.479);
+    position: absolute;
+    top: 0;
+
+}
+.banner-content{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 350px;
+}
+.banner-content h1{
+    font-size: 70px;
+    background: rgba(128, 0, 128, 0.393);
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+
+.about{
+    padding: 50px;
+    text-align: center;
+    background: #ddd;
+}
+
+.about-content{}
+.about-content h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.about-content p{
+    font-size: 20px;
+    color: #7d7d7d;
+}
+
+.product-section::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.product-section{
+    background: palevioletred;
+    padding: 50px 0;
+}
+
+.product{
+    float: left;
+    width: 30%;
+    background: rgb(218, 160, 179);
+    margin-right: 2%;
+    padding: 80px 40px; 
+    font-size: 20px;
+}
+.product:last-child{
+    margin-right: 0;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    padding: 50px 0;
 }
